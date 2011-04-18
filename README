@@ -1,0 +1,16 @@
+FITNESS INSTRUMENT DIGITAL INTERFACE PROTOCOL
+---------------------------------------------
+
+Protocol defined in fidi.h
+
+Test client
+-----------
+client.c, client.h
+
+To run
+------
+gcc client.c -o client
+gcc speak.c -o speak
+
+Receiver terminal: ./client
+Transmitter terminal ./speak
